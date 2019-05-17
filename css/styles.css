@@ -1,0 +1,20 @@
+h1{
+	color:blue;
+}
+div{
+	border-style: solid;
+	border-width: 1px;
+	margin:2px;
+}
+#pageContainer{
+
+}
+#inProgressProjects{
+	float:left;
+	width:48%;
+}
+#completedProjects{
+	float:right;
+	width:48%;
+	display:inline-block;
+}

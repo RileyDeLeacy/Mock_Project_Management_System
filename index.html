@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <title>Project Management System</title>
+    </head>
+    <body>
+		<div id="testButtonInput"></div>
+		<div id="pageContainer">
+			<!-- edit project form -->
+			<form id="editProject">
+				<label for="editProjectID">Project ID:</label>
+				<input id="editProjectID" type="text" name="projectID"><br>
+				<label for="editProjectTitle">New Project Title:</label>
+				<input id="editProjectTitle" type="text" name="newProjectTitle"><br>
+				<label for="editProjectDescription">New Project Description:</label>
+				<input id="editProjectDescription" type="text" name="newProjectDescription">
+				<input type="submit" class="btn">
+			</form>
+			<!-- projects in-progress -->
+			<div id="inProgressProjects">
+				<h1>Projects In Progress</h1>
+				<div id="inProgressProjectsInput"></div>				
+			</div>
+			<!-- completed projects -->
+			<div id="completedProjects">
+				<h1>Completed Projects</h1>
+				<div id="completedProjectsInput"></div>
+			</div>
+		</div>
+	<script type="application/javascript" src="javascript/javascript.js"></script>
+    </body>
+</html>
